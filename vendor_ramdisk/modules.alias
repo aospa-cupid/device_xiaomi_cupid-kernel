@@ -1002,6 +1002,8 @@ alias of:N*T*Cqcom,ipcc qcom_ipcc
 alias of:N*T*Cqcom,ipccC* qcom_ipcc
 alias i2c:rtc6226 radio_i2c_rtc6226_qca
 alias pwm:pwm-lpg pwm_qti_lpg
+alias of:N*T*Cqcom,pcie-i2c-ntn3 pci_msm_drv
+alias of:N*T*Cqcom,pcie-i2c-ntn3C* pci_msm_drv
 alias of:N*T*Cir-spi ir_spi
 alias of:N*T*Cir-spiC* ir_spi
 alias of:N*T*Cqcom,sharedmem-uio msm_sharedmem
