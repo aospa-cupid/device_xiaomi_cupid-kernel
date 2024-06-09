@@ -1,7 +1,5 @@
 msm_sysstats.ko
 zsmalloc.ko
-lzo.ko
-lzo-rle.ko
 msm_show_resume_irq.ko
 mhi_cntrl_qcom.ko
 mhi_dev_uci.ko
@@ -199,6 +197,8 @@ gh_mem_notifier.ko
 gh_virtio_backend.ko
 qcom-spmi-adc5.ko
 qcom-vadc-common.ko
+coresight-clk-placeholder.ko
+coresight-clk-amba-placeholder.ko
 nvmem_qfprom.ko
 icc-test.ko
 qnoc-parrot.ko

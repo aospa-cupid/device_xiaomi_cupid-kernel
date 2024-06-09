@@ -31,8 +31,6 @@ alias of:N*T*Cqcom,anorak-spss-pas qcom_spss
 alias of:N*T*Cqcom,anorak-spss-pasC* qcom_spss
 alias of:N*T*Cqcom,dload-mode qcom_dload_mode
 alias of:N*T*Cqcom,dload-modeC* qcom_dload_mode
-alias lzo lzo
-alias crypto-lzo lzo
 alias of:N*T*Cqcom,sc7180-aoss-qmp qcom_aoss
 alias of:N*T*Cqcom,sc7180-aoss-qmpC* qcom_aoss
 alias of:N*T*Cqcom,sdm845-aoss-qmp qcom_aoss
@@ -550,8 +548,6 @@ alias platform:i2c_geni i2c_msm_geni
 alias of:N*T*Cqcom,i2c-geni i2c_msm_geni
 alias of:N*T*Cqcom,i2c-geniC* i2c_msm_geni
 alias platform:sys_pm_vx sys_pm_vx
-alias lzo-rle lzo_rle
-alias crypto-lzo-rle lzo_rle
 alias fixed-partitions ofpart
 alias ofoldpart ofpart
 alias of:N*T*Cfixed-partitions ofpart
@@ -1002,6 +998,8 @@ alias of:N*T*Cqcom,ipcc qcom_ipcc
 alias of:N*T*Cqcom,ipccC* qcom_ipcc
 alias i2c:rtc6226 radio_i2c_rtc6226_qca
 alias pwm:pwm-lpg pwm_qti_lpg
+alias of:N*T*Cqcom,pcie-i2c-ntn3 pci_msm_drv
+alias of:N*T*Cqcom,pcie-i2c-ntn3C* pci_msm_drv
 alias of:N*T*Cir-spi ir_spi
 alias of:N*T*Cir-spiC* ir_spi
 alias of:N*T*Cqcom,sharedmem-uio msm_sharedmem
