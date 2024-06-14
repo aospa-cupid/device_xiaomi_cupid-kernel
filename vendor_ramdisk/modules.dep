@@ -83,7 +83,7 @@
 /lib/modules/altmode-glink.ko: /lib/modules/pmic_glink.ko /lib/modules/pdr_interface.ko /lib/modules/qmi_helpers.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/smem.ko
 /lib/modules/rq_stats.ko:
 /lib/modules/spmi-glink-debug.ko: /lib/modules/pmic_glink.ko /lib/modules/pdr_interface.ko /lib/modules/qmi_helpers.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/smem.ko
-/lib/modules/fts_touch_spi.ko: /lib/modules/xiaomi_touch.ko /lib/modules/panel_event_notifier.ko
+/lib/modules/fts_touch_spi.ko: /lib/modules/hwid.ko /lib/modules/xiaomi_touch.ko /lib/modules/panel_event_notifier.ko
 /lib/modules/iommu-logger.ko:
 /lib/modules/msm_geni_serial.ko: /lib/modules/msm-geni-se.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/smem.ko
 /lib/modules/phy-msm-ssusb-qmp.ko:
