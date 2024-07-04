@@ -970,6 +970,8 @@ alias pci:v000017CBd00001101sv*sd*bc*sc*i* cnss2
 alias pci:v000017CBd00001103sv*sd*bc*sc*i* cnss2
 alias pci:v000017CBd00001107sv*sd*bc*sc*i* cnss2
 alias pci:v000017CBd0000110Asv*sd*bc*sc*i* cnss2
+alias of:N*T*Cqcom,crypto crypto_qti_common
+alias of:N*T*Cqcom,cryptoC* crypto_qti_common
 alias of:N*T*Cqcom,ipcc qcom_ipcc
 alias of:N*T*Cqcom,ipccC* qcom_ipcc
 alias i2c:rtc6226 radio_i2c_rtc6226_qca
