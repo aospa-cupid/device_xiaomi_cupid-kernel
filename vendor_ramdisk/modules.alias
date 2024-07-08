@@ -234,8 +234,6 @@ alias platform:spi_geni spi_msm_geni
 alias platform:swr-mstr swr_ctrl_dlkm
 alias of:N*T*Cqcom,cpu-vendor-hooks qcom_cpu_vendor_hooks
 alias of:N*T*Cqcom,cpu-vendor-hooksC* qcom_cpu_vendor_hooks
-alias of:N*T*Cqcom,minidump minidump
-alias of:N*T*Cqcom,minidumpC* minidump
 alias of:N*T*Cqcom,spmi-glink-debug spmi_glink_debug
 alias of:N*T*Cqcom,spmi-glink-debugC* spmi_glink_debug
 alias tty:msm_geni_geni_serial msm_geni_serial
@@ -249,8 +247,6 @@ alias of:N*T*Cqcom,usb-ssphy-qmp-dp-combo phy_msm_ssusb_qmp
 alias of:N*T*Cqcom,usb-ssphy-qmp-dp-comboC* phy_msm_ssusb_qmp
 alias of:N*T*Cqcom,usb-ssphy-qmp-usb3-or-dp phy_msm_ssusb_qmp
 alias of:N*T*Cqcom,usb-ssphy-qmp-usb3-or-dpC* phy_msm_ssusb_qmp
-alias of:N*T*Cqcom,mem-offline mem_offline
-alias of:N*T*Cqcom,mem-offlineC* mem_offline
 alias of:N*T*Cqcom,kgsl-3d0 msm_kgsl
 alias of:N*T*Cqcom,kgsl-3d0C* msm_kgsl
 alias of:N*T*Cfocaltech,fts_ts focaltech_fts
