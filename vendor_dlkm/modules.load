@@ -127,15 +127,15 @@ nb7vpq904m.ko
 atmel_mxt_ts.ko
 focaltech_fts.ko
 synaptics_dsx.ko
-fts_touch_spi.ko
 xiaomi_touch.ko
 nt36xxx-i2c.ko
 nt36xxx-spi.ko
 goodix_core.ko
+gt9916r.ko
 pm8941-pwrkey.ko
-aw8697-haptic.ko
+qcom-hv-haptics.ko
 fpc1540.ko
-goodix_fod.ko
+goodix_3626.ko
 i2c-msm-geni.ko
 i3c-master-msm-geni.ko
 ir-spi.ko
@@ -160,6 +160,7 @@ qti_devfreq_cdev.ko
 mi_thermal_interface.ko
 btpower.ko
 bt_fm_slim.ko
+qcom_edac.ko
 qcom-cpufreq-hw-debug.ko
 qcom_lpm.ko
 sdhci-msm.ko
