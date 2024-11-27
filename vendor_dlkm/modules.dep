@@ -28,7 +28,6 @@
 /vendor_dlkm/lib/modules/gdsc-regulator.ko: /vendor_dlkm/lib/modules/proxy-consumer.ko
 /vendor_dlkm/lib/modules/camcc-waipio.ko: /vendor_dlkm/lib/modules/clk-qcom.ko /vendor_dlkm/lib/modules/gdsc-regulator.ko /vendor_dlkm/lib/modules/proxy-consumer.ko
 /vendor_dlkm/lib/modules/clk-rpmh.ko: /vendor_dlkm/lib/modules/qcom_rpmh.ko /vendor_dlkm/lib/modules/cmd-db.ko
-/vendor_dlkm/lib/modules/gcc-diwali.ko: /vendor_dlkm/lib/modules/clk-qcom.ko /vendor_dlkm/lib/modules/gdsc-regulator.ko /vendor_dlkm/lib/modules/proxy-consumer.ko
 /vendor_dlkm/lib/modules/gcc-waipio.ko: /vendor_dlkm/lib/modules/clk-dummy.ko /vendor_dlkm/lib/modules/clk-qcom.ko /vendor_dlkm/lib/modules/gdsc-regulator.ko /vendor_dlkm/lib/modules/proxy-consumer.ko
 /vendor_dlkm/lib/modules/videocc-waipio.ko: /vendor_dlkm/lib/modules/clk-qcom.ko /vendor_dlkm/lib/modules/gdsc-regulator.ko /vendor_dlkm/lib/modules/proxy-consumer.ko
 /vendor_dlkm/lib/modules/gpucc-waipio.ko: /vendor_dlkm/lib/modules/clk-qcom.ko /vendor_dlkm/lib/modules/gdsc-regulator.ko /vendor_dlkm/lib/modules/proxy-consumer.ko
@@ -233,6 +232,7 @@
 /vendor_dlkm/lib/modules/qcom-scm.ko:
 /vendor_dlkm/lib/modules/qce50.ko: /vendor_dlkm/lib/modules/sps_drv.ko
 /vendor_dlkm/lib/modules/qcedev-mod.ko: /vendor_dlkm/lib/modules/qce50.ko /vendor_dlkm/lib/modules/sps_drv.ko /vendor_dlkm/lib/modules/mem_buf_dev.ko /vendor_dlkm/lib/modules/secure_buffer.ko /vendor_dlkm/lib/modules/qcom-scm.ko /vendor_dlkm/lib/modules/gh_rm_drv.ko /vendor_dlkm/lib/modules/gh_dbl.ko /vendor_dlkm/lib/modules/gh_msgq.ko /vendor_dlkm/lib/modules/gh_arm_drv.ko
+/vendor_dlkm/lib/modules/binder_prio.ko:
 /vendor_dlkm/lib/modules/ipa_fmwk.ko:
 /vendor_dlkm/lib/modules/msm-geni-se.ko:
 /vendor_dlkm/lib/modules/usb_bam.ko: /vendor_dlkm/lib/modules/sps_drv.ko
@@ -262,8 +262,6 @@
 /vendor_dlkm/lib/modules/qcom-spmi-adc5.ko: /vendor_dlkm/lib/modules/qcom-vadc-common.ko
 /vendor_dlkm/lib/modules/qcom-vadc-common.ko:
 /vendor_dlkm/lib/modules/qcom_llcc_pmu.ko:
-/vendor_dlkm/lib/modules/coresight-clk-placeholder.ko:
-/vendor_dlkm/lib/modules/coresight-clk-amba-placeholder.ko:
 /vendor_dlkm/lib/modules/nvmem_qfprom.ko:
 /vendor_dlkm/lib/modules/nvmem_qcom-spmi-sdam.ko:
 /vendor_dlkm/lib/modules/icc-bcm-voter.ko: /vendor_dlkm/lib/modules/qcom_rpmh.ko /vendor_dlkm/lib/modules/cmd-db.ko

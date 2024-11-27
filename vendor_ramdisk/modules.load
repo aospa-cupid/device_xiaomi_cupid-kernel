@@ -21,7 +21,6 @@ cqhci.ko
 crypto-qti-common.ko
 crypto-qti-hwkm.ko
 dcvs_fp.ko
-dispcc-waipio.ko
 gdsc-regulator.ko
 gh_arm_drv.ko
 gh_ctrl.ko

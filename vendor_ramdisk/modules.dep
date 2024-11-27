@@ -28,7 +28,6 @@
 /lib/modules/gdsc-regulator.ko: /lib/modules/proxy-consumer.ko
 /lib/modules/camcc-waipio.ko: /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/proxy-consumer.ko
 /lib/modules/clk-rpmh.ko: /lib/modules/qcom_rpmh.ko /lib/modules/cmd-db.ko
-/lib/modules/gcc-diwali.ko: /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/proxy-consumer.ko
 /lib/modules/gcc-waipio.ko: /lib/modules/clk-dummy.ko /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/proxy-consumer.ko
 /lib/modules/videocc-waipio.ko: /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/proxy-consumer.ko
 /lib/modules/gpucc-waipio.ko: /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/proxy-consumer.ko
@@ -233,6 +232,7 @@
 /lib/modules/qcom-scm.ko:
 /lib/modules/qce50.ko: /lib/modules/sps_drv.ko
 /lib/modules/qcedev-mod.ko: /lib/modules/qce50.ko /lib/modules/sps_drv.ko /lib/modules/mem_buf_dev.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/gh_rm_drv.ko /lib/modules/gh_dbl.ko /lib/modules/gh_msgq.ko /lib/modules/gh_arm_drv.ko
+/lib/modules/binder_prio.ko:
 /lib/modules/ipa_fmwk.ko:
 /lib/modules/msm-geni-se.ko:
 /lib/modules/usb_bam.ko: /lib/modules/sps_drv.ko
@@ -262,8 +262,6 @@
 /lib/modules/qcom-spmi-adc5.ko: /lib/modules/qcom-vadc-common.ko
 /lib/modules/qcom-vadc-common.ko:
 /lib/modules/qcom_llcc_pmu.ko:
-/lib/modules/coresight-clk-placeholder.ko:
-/lib/modules/coresight-clk-amba-placeholder.ko:
 /lib/modules/nvmem_qfprom.ko:
 /lib/modules/nvmem_qcom-spmi-sdam.ko:
 /lib/modules/icc-bcm-voter.ko: /lib/modules/qcom_rpmh.ko /lib/modules/cmd-db.ko

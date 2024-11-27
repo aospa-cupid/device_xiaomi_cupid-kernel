@@ -21,7 +21,6 @@ cqhci.ko
 crypto-qti-common.ko
 crypto-qti-hwkm.ko
 dcvs_fp.ko
-dispcc-waipio.ko
 gdsc-regulator.ko
 gh_arm_drv.ko
 gh_ctrl.ko
@@ -246,6 +245,7 @@ gplaf_vendor.ko
 shared_rail_vendor.ko
 qce50.ko
 qcedev-mod.ko
+binder_prio.ko
 ipa_fmwk.ko
 usb_bam.ko
 sps_drv.ko
