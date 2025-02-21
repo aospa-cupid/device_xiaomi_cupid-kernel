@@ -320,8 +320,7 @@ qrtr-mhi.ko
 qrtr-gunyah.ko
 msm_drm.ko
 msm-mmrm.ko
+goodix_fod.ko
 qcom_pm8008-regulator.ko
-gt9916r.ko
-qcom-hv-haptics.ko
-fpc1540.ko
-goodix_3626.ko
+fts_touch_spi.ko
+aw8697-haptic.ko
